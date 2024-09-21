@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');/* Importa la fuente 'Open Sans' */
+@import url('"https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">p');/* Importa la fuente 'Open Sans' */
 
 *, html { /* Aplica a todos los elementos y al elemento html */
   box-sizing: border-box; /* Incluye padding y border en el tamaño total */
 
-  .tiny5-regular {
-    font-family: "Tiny5", sans-serif;
+  .vt323-regular {
+    font-family: "VT323", monospace;
     font-weight: 400;
     font-style: normal;
   }
@@ -14,7 +14,7 @@
 html, body { /* Estilos para el html y el body */
     margin: 0; /* Elimina el margen por defecto */
     padding: 0; /* Elimina el padding por defecto */
-    background-color: #e9f01f; /* Fondo claro */
+    background-color: #000000; /* Fondo claro */
 }
 
 main { /* Estilo para el elemento main */
@@ -39,27 +39,27 @@ main { /* Estilo para el elemento main */
 
 h1 { /* Estilo para el título h1 */
     text-align: center;
-    font-family:'Tiny5', sans-serif;
+    font-family:'VT323', monospace;
     font-size: 7em; /* Tamaño de fuente grande (4em) */
-    color: #1f1f1f; /* Color naranja */
+    color: #cefa05; /* Color naranja */
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
 h2 { /* Estilo para subtítulos h2 */
     text-align: center;
-    font-family:'Tiny5', sans-serif;
+    font-family:'VT323', monospace;
     font-size: 4em; /* Tamaño de fuente mediano (1.5em) */
-    color: #066e3a; /* Color naranja */
+    color: #cefa05; /* Color naranja */
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
 h3 { /* Estilo para subtítulos h3 */
     text-align: center;
-    font-family:'Tiny5', sans-serif;
+    font-family:'VT323', monospace;
     font-size: 3em; /* Tamaño de fuente mediano (1.5em) */
-    color: #066e3a; /* Color naranja */
+    color: #cefa05f; /* Color naranja */
     margin-bottom: 15px;
     padding-bottom: 0;
 }
@@ -76,6 +76,7 @@ h3 { /* Estilo para subtítulos h3 */
     padding: 30px; /* Sin padding */
     text-align: justify; /* Justifica el texto */
     text-align: center;
+    color: #cefa05;
     word-break: normal; /* Permite el corte de palabras natural */
     p { /* Estilo para párrafos p */
         text-align: left;
@@ -119,17 +120,17 @@ button { /* Estilo para los botones */
     font-family:'Tiny5', sans-serif;
     border-radius: 20px; /* Bordes redondeados */
     padding: 10px 20px; /* Padding de 10px arriba y abajo, 20px a los lados */
-    background-color: #e9f01f; /* Color de fondo gris claro */
+    background-color: #cefa05; /* Color de fondo gris claro */
     font-size: 20px; /* Tamaño de fuente de 14px */
     font-weight: bold; /* Texto en negrita */
-    color: #066e3a; /* Texto naranja */
+    color: #000000; /* Texto naranja */
     border: none; /* Sin borde */
     cursor:not-allowed; /* Cursor de mano al pasar por encima */
 }
 
 button:hover { /* Estilo hover para los botones */
-    background-color: #066e3a; /* Fondo cambia a naranja */
-    color: #e9f01f; /* Texto cambia a negro */
+    background-color: #000000; /* Fondo cambia a naranja */
+    color: #cefa05; /* Texto cambia a negro */
     font-weight: bold; /* Mantiene el texto en negrita */
 }
 
