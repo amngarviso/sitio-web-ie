@@ -19,80 +19,136 @@
                 <img src="img/img 2.gif" class="gif"> 
             </a>
             <h1>Imagen Escrita</h1>
-            <h2>Encargos </h2>
-            <h3>Amanda Garviso 2024</h3>
+            <h2>Amanda Garviso - 2024</h2>
         </div>
 
         <!-- Contenedor lado izquierdo de la página -->
 
-            <!-- Contenedor párrafos + botón -->
-            <div class="content">
+                    <!-- Contenedor párrafos + botón -->
+                  
+                    <div class="content" style="grid-area: content;">
 
-                <!-- párrafo -->
-                <p>Este curso se centra en la intersección entre diseño, programación y arte generativo. Utilizando
-                    p5.js
-                    como
-                    herramienta principal, el curso explora los fundamentos de la programación creativa y su aplicación
-                    en
-                    el
-                    diseño
-                    visual interactivo.</p>
+                        <!-- párrafo -->
+                        <p>Este curso se centra en la intersección entre diseño, programación y arte generativo. Utilizando
+                            p5.js
+                            como
+                            herramienta principal, el curso explora los fundamentos de la programación creativa y su aplicación
+                            en
+                            el
+                            diseño
+                            visual interactivo.</p>
+        
+                        <p>A través del creative coding se hace énfasis en el pensamiento computacional como herramienta de
+                            diseño,
+                            fomentando un
+                            enfoque innovador en la resolución de problemas visuales y la creación artística. La integración de
+                            herramientas de IA
+                            busca ampliar las posibilidades creativas y técnicas, sirviendo como complemento al proceso de
+                            diseño y
+                            programación</p>
+        
+                        <!-- botón -->
+                        <a href="https://enlace-a-la-wiki.com" target="_blank">
+                            <button>ver en la wiki</button>
+                        </a>
+                        </div>
+        
+              
 
-                <p>A través del creative coding se hace énfasis en el pensamiento computacional como herramienta de
-                    diseño,
-                    fomentando un
-                    enfoque innovador en la resolución de problemas visuales y la creación artística. La integración de
-                    herramientas de IA
-                    busca ampliar las posibilidades creativas y técnicas, sirviendo como complemento al proceso de
-                    diseño y
-                    programación</p>
-
-                <!-- botón -->
-                <a href="https://enlace-a-la-wiki.com" target="_blank">
-                    <button>ver en la wiki</button>
-                </a>
-
-        </div>
-
-        <!-- Contenedor lado derecho de la página -->
-
-
-            <!--Contenedor proyectos-->
-            <div class="proyectos">
-
-                <nav>
-
-                    <!--imagenes con enlace a sketch-->
-                    <a href="proyectos/Encargo_1_IE_-_Geometria_Neon_Amanda_Garviso_de_Nordenflycht_2024_08_28_23_22_54/index.html" target="_blank">
-                        <img src="img/tarea 1 ie.png"> sketch 1
-                    </a>
-                    <a href="https://editor.p5js.org/amngarviso/full/0Vg6VHTC8" target="_blank">
-                        <img src="img/tarea 2 ie.png"> sketch 2
-                    </a>
-                    <a href="https://editor.p5js.org/amngarviso/full/okweYo1vF" target="_blank">
-                        <img src="img/tarea 3 ie.png"> sketch 3
-                    </a>
-                    <a href="https://www.ejemplo.com" target="_blank">
-                        <img src="img/funnyfixx.png"> sketch 4
-                    </a>
-                    <a href="https://www.ejemplo.com" target="_blank">
-                        <img src="img/funnyfixx.png"> sketch 5
-                    </a>
-                    <a href="https://www.ejemplo.com" target="_blank">
-                        <img src="img/funnyfixx.png"> sketch 6
-                    </a>
-                    <a href="https://www.ejemplo.com" target="_blank">
-                        <img src="img/funnyfixx.png"> sketch 7
-                    </a>
-                    <a href="https://www.ejemplo.com" target="_blank">
-                        <img src="img/funnyfixx.png"> sketch 8
-                    </a>
-                </nav>
+   <!-- Contenedor lado derecho de la página -->
 
 
-        </div>
+
+
+<!-- Slideshow encargos -->
+<div class="proyectos" style="grid-area: proyectos;">
+
+    <!-- Full-width images with number and caption text -->
+
+    <div class="mySlides fade">
+        <a href="https://editor.p5js.org/amngarviso/sketches/KkavT9zWu">
+            <img src="img/tarea 1 ie.png" alt="Encargo 1">
+        </a>
+        <div class="text">Encargo 1 - Geometría Neon</div>
+    </div>
+  
+ 
+    <div class="mySlides fade">
+        <a href="https://editor.p5js.org/amngarviso/full/0Vg6VHTC8">
+            <img src="img/tarea 2 ie.png" alt="Encargo 2">
+        </a>
+        <div class="text">Encargo 2 - Túnel aleatorio</div>
+    </div>
+  
+    <div class="mySlides fade">
+        <a href="https://editor.p5js.org/amngarviso/full/okweYo1vF">
+            <img src="img/tarea 3 ie.png" alt="Encargo 3">
+        </a>
+        <div class="text">Encargo 3 - Listón Neón</div>
+    </div>
+  
+    <div class="mySlides fade">
+        <a href=" https://editor.p5js.org/amngarviso/full/J508gbgQG" target="_blank">
+        <img src="img/tarea 4 ie.png" alt="Encargo 4">
+    </a>
+        <div class="text">Encargo 4 - Telaraña Expandida</div>
+    </div>
+
+      <div class="mySlides fade">
+        <a href="#">
+        <img src="img/funnyfixx.png" alt="Continuará...">
+    </a>
+        <div class="text">Continuará...</div>
+      </div>
+
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+
+
+
 
     </main>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        
+        // Auto slideshow
+        setInterval(() => {
+          plusSlides(1);
+        }, 5000); // Cambia la imagen cada 5 segundos
+        </script>
 
 </body>
 
